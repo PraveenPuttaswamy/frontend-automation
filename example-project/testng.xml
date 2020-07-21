@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="false">
+
+  <test name="E3 Automation Test"  >
+    <packages>
+      <package name="com.app.smoketest"></package>
+    </packages>
+  </test>
+
+  <listeners>
+    <listener class-name="configuration.CustomListener" />
+  </listeners>
+
+</suite>
